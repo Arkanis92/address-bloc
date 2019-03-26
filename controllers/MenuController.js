@@ -63,4 +63,8 @@ module.exports = class MenuController {
     console.log(ts.toString());
     this.main();
   }
+
+  remindMe () {
+    return "Learning is a life-long pursuit";
+  }
 }
